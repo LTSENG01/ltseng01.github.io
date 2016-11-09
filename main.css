@@ -33,6 +33,20 @@ footer .footer-text {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    .social-media-buttons .row {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-media-buttons .row {
+        width: 100%;
+    }
+}
+
 /* Class Styles */
 
 .page {
@@ -93,9 +107,6 @@ footer .footer-text {
 
 /* MEDIA STYLES */
 @media screen and (min-width: 992px) {
-    #social-media-buttons {
-        border-left: 1px solid #E7E7E7;
-    }
     .btn-circle.btn-xl {
         margin: 25px;
         width: 100px;
