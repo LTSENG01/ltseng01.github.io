@@ -31,19 +31,19 @@ footer .footer-text {
 
 .social-media-buttons {
     text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 @media (min-width: 768px) {
     .social-media-buttons {
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 50%;
     }
 }
 
 @media (max-width: 768px) {
     .social-media-buttons {
-        width: 100%;
+        width: 90%;
     }
 }
 
