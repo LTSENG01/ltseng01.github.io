@@ -1,6 +1,5 @@
 body {
     margin-top: 10px;
-    background-color: lightslategray;
     overflow-x: hidden;
     max-width: 100%;
 }
@@ -30,49 +29,15 @@ footer .footer-text {
     font-weight: 700;
 }
 
-form {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-textarea {
-    max-width: 100%;
-    max-height: 250px;
+.social-media-buttons {
+    text-align: center;
 }
 
 /* Class Styles */
 
-.navbar {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.navbar> .container-fluid {
-    padding-top: 5px;
-}
-
-.navbar-right {
-    float: right!important;
-}
-
-.navbar-left {
-    float: left!important;
-}
-
-.main-content {
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: white;
-}
-
 .page {
     margin-bottom: 10px;
     min-width: 100%;
-}
-
-.fa-arrow-circle-up {
-    color: black;
-    margin-top: 15px;
 }
 
 .life-container {
@@ -110,15 +75,8 @@ textarea {
     border-radius: 50px;
     margin: 25px;
 }
+
 /* ID Styles */
-
-#profile-picture> img {
-    border-radius: 15px;
-}
-
-#social-media-buttons {
-    text-align: center;
-}
 
 #instagram-logo {
     background-image: url("/instagram-gradient.png");
@@ -132,8 +90,8 @@ textarea {
 #code-icon {
     padding-top: 35px!important;
 }
-/* MEDIA STYLES */
 
+/* MEDIA STYLES */
 @media screen and (min-width: 992px) {
     #social-media-buttons {
         border-left: 1px solid #E7E7E7;
@@ -145,47 +103,27 @@ textarea {
         padding: 10px;
         border-radius: 50px;
     }
-    .nav-pills {
-        margin-right: 10px;
-    }
 }
 
-@media screen and (max-width: 1000px) {
-    .main-content {
-        margin: 0 10% 0 10%;
-    }
-    body {
-        margin: 0px;
-    }
+/* Large Desktops */
+@media (min-width: 1000px) {
+
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 768px) {
     .life-icon {
         height: 100px;
         width: 100px;
         padding-top: 15px;
     }
     #code-icon {
-        padding-top: 15px!important;
+        padding-top: 15px !important;
     }
 }
 
-@media screen and (max-width: 530px) {
+@media (max-width: 530px) {
     .main-content,
     body {
         margin: 0px;
-    }
-    #right-nav-buttons {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .nav-pills> li> a {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .nav-pills {
-        margin-right: 0px;
     }
 }
