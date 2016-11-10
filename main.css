@@ -29,6 +29,8 @@ footer .footer-text {
     font-weight: 700;
 }
 
+/* Connect section at bottom */
+
 .social-media-buttons {
     text-align: center;
     margin-left: auto !important;
@@ -44,6 +46,16 @@ footer .footer-text {
 @media (max-width: 768px) {
     .social-media-buttons {
         width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    .social-media-buttons {
+        width: 100%;
+    }
+    .col-xs-6 {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
