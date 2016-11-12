@@ -13,22 +13,21 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik|Roboto|Source+Sans+Pro|Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Amatic+SC:400,700" rel="stylesheet">
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<title>Larry Tseng</title>
 </head>
 <body>
-    <div class="page container" id="home">
+    <div class="page container animated fadeInUpBig" id="home">
         <br>
         <h2>Larry Tseng</h2>
         <br>
         <div class="row">
         </div>
-        <br>
     </div>
-    <div class="page container" id="life">
+    <div class="page container" id="projects">
         <br>
         <h2>Projects</h2>
         <br>
@@ -77,9 +76,30 @@
         </div>
         <br>
     </div>
-    <footer>
+    <footer id="footer">
         <h4 class="footer-text">Designed, Created, and &copy; 2016 by Larry Tseng. All Rights Reserved.</h4>
         <h5 class="footer-text">For questions, please email me <a href="mailto:lt222888@gmail.com" title="Email Me!">here</a>.</h5>
     </footer>
+    <script>
+        $(document).ready(function() {
+            $('#projects').hide();
+            $('#contact').hide();
+            $('#footer').hide();
+        });
+        $(window).load(function() {
+            $('#home').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $('#projects').show();
+                $('#projects').addClass('animated fadeInUpBig');
+            });
+            $('#projects').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $('#contact').show();
+                $('#contact').addClass('animated fadeInUpBig');
+            });
+            $('#contact').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $('#footer').show();
+                $('#footer').addClass('animated fadeInUpBig');
+            });
+        });
+    </script>
 </body>
 </html>
