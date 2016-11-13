@@ -20,7 +20,7 @@
 	<title>Larry Tseng</title>
 </head>
 <body>
-    <div class="page container animated fadeInUpBig" id="home">
+    <div class="page container" id="home">
         <br>
         <h2>Larry Tseng</h2>
         <br>
@@ -82,11 +82,14 @@
     </footer>
     <script>
         $(document).ready(function() {
+            $('#home').hide();
             $('#projects').hide();
             $('#contact').hide();
             $('#footer').hide();
         });
         $(window).load(function() {
+            $('#home').show();
+            $('#home').addClass('animated fadeInUpBig');
             $('#home').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
                 $('#projects').show();
                 $('#projects').addClass('animated fadeInUpBig');
