@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<meta name="keywords" content="Larry Tseng, Larry Tseng Westwood, Westwood High School, Web Developer, Programmer, Photographer, Robotics, Video Producer, Teacher, Game Developer, App Developer, CEO, About Me">
 	<meta name="author" content="Larry Tseng">
     <meta name="description" content="Larry Tseng's Personal Website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <link href="main.css" rel="stylesheet" type="text/css">
-    <link href="/hover/hover-min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="./lib/hover/hover-min.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Amatic+SC:400,700" rel="stylesheet">
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 
 	<title>Larry Tseng</title>
 </head>
@@ -26,6 +28,14 @@
         <br>
         <div class="row">
         </div>
+    </div>
+    I'm <span id="typed"></span>
+    <div id="typed-strings">
+        <p>a software engineer.</p>
+        <p>a full stack developer.</p>
+        <p>a graphic designer.</p>
+        <p>an entrepreneur.</p>
+        <p>a student at UMass Amherst.</p>
     </div>
     <div class="page container" id="projects">
         <br>
@@ -77,32 +87,11 @@
         <br>
     </div>
     <footer id="footer">
-        <h4 class="footer-text">Designed, Created, and &copy; 2016 by Larry Tseng. All Rights Reserved.</h4>
+        <h4 class="footer-text">Designed, Created, and &copy; 2020 by Larry Tseng. All Rights Reserved.</h4>
         <h5 class="footer-text">For questions, please email me <a href="mailto:lt222888@gmail.com" title="Email Me!">here</a>.</h5>
     </footer>
-    <script>
-        $(document).ready(function() {
-            $('#home').hide();
-            $('#projects').hide();
-            $('#contact').hide();
-            $('#footer').hide();
-        });
-        $(window).load(function() {
-            $('#home').show();
-            $('#home').addClass('animated fadeInUpBig');
-            $('#home').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                $('#projects').show();
-                $('#projects').addClass('animated fadeInUpBig');
-            });
-            $('#projects').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                $('#contact').show();
-                $('#contact').addClass('animated fadeInUpBig');
-            });
-            $('#contact').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                $('#footer').show();
-                $('#footer').addClass('animated fadeInUpBig');
-            });
-        });
-    </script>
+    <script src="https://kit.fontawesome.com/41db6cce27.js" crossorigin="anonymous"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
