@@ -1,7 +1,7 @@
 const typedOptions = {
     stringsElement: '#typed-strings',
-    typeSpeed: 50,
-    backSpeed: 25,
+    typeSpeed: 70,
+    backSpeed: 60,
     backDelay: 1000,
     smartBackspace: true,
     loop: true

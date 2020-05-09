@@ -3,11 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<meta name="keywords" content="Larry Tseng, Larry Tseng Westwood, Westwood High School, Web Developer, Programmer, Photographer, Robotics, Video Producer, Teacher, Game Developer, App Developer, CEO, About Me">
+	<meta name="keywords" content="Larry Tseng, UMass Amherst, CICS, Westwood High School, Web Developer, Programmer, Photographer, Robotics, Game Developer, App Developer, iOS">
 	<meta name="author" content="Larry Tseng">
-    <meta name="description" content="Larry Tseng's Personal Website">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <link href="main.css" rel="stylesheet" type="text/css">
     <link href="./lib/hover/hover-min.css" rel="stylesheet" type="text/css" media="all">
@@ -15,28 +12,28 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Amatic+SC:400,700" rel="stylesheet">
+    <link href="./fonts/fontdeclarations.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 
 	<title>Larry Tseng</title>
 </head>
 <body>
+    <!-- HOME SECTION -->
     <div class="page container" id="home">
-        <br>
-        <h2>Larry Tseng</h2>
-        <br>
-        <p>[New Website Coming Soon!]</p>
-        <br>
+        <h2>Hi, I'm Larry Tseng.</h2>
+        <div id="main-headline">      <!-- todo center this -->
+            <h5>I'm a<span id="typed"></span><noscript> software engineer and entrepreneur.</noscript></h5>   <!-- todo do not center this -->
+            <div id="typed-strings" hidden>
+                <p>&nbsp;software engineer.</p>
+                <p>&nbsp;full stack developer.</p>
+                <p>&nbsp;graphic designer.</p>
+                <p>n entrepreneur.</p>  <!-- todo make the n the same style -->
+                <p>&nbsp;student at UMass Amherst.</p>
+            </div>
+        </div>
     </div>
-    I'm <span id="typed"></span>
-    <div id="typed-strings">
-        <p>a software engineer.</p>
-        <p>a full stack developer.</p>
-        <p>a graphic designer.</p>
-        <p>an entrepreneur.</p>
-        <p>a student at UMass Amherst.</p>
-    </div>
+    <!-- PROJECTS SECTION -->
     <div class="page container" id="projects">
         <br>
         <h2>Projects</h2>
@@ -87,8 +84,7 @@
         <br>
     </div>
     <footer id="footer">
-        <h4 class="footer-text">Designed, Created, and &copy; 2020 by Larry Tseng. All Rights Reserved.</h4>
-        <h5 class="footer-text">For questions, please email me <a href="mailto:lt222888@gmail.com" title="Email Me!">here</a>.</h5>
+        <h4 class="footer-text">&copy; 2020 by Larry Tseng.</h4>
     </footer>
     <script src="https://kit.fontawesome.com/41db6cce27.js" crossorigin="anonymous"></script>
     <script src="lib/typed/typed.min.js"></script>
