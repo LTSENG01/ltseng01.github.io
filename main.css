@@ -13,8 +13,16 @@ h1, h2 {
     font-style: normal;
 }
 
-h3, h4, h5, h6, p {
+h3, h4 {
     font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal;
+}
+
+h5, h6, p {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal;
     text-align: center;
 }
 
@@ -108,13 +116,28 @@ footer .footer-text {
 
 #home {
     height: 100vh;
-    padding-top: 35vh;
+    padding-top: 30vh;
     background-image: url("./images/splash3.jpg");
     background-size: cover;
-    background-color: rgb(66, 71, 83);
-    background-blend-mode: overlay;
+    background-color: rgb(130, 132, 135);
+    background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    text-shadow: #375fd5 0 0 7px;
+}
+
+#main-headline {
+    margin-top: 1rem;
+}
+
+#main-chevron {
+    font-size: 1.75rem;
+    margin-top: 50vh;
+}
+
+#main-chevron a {
     color: white;
 }
 
