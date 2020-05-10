@@ -41,7 +41,7 @@ footer .footer-text {
     font-family: "Roboto Mono", 'Source Sans Pro', sans-serif !important;
     font-weight: 300;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 /* Connect section at bottom */
@@ -152,6 +152,18 @@ footer .footer-text {
 }
 
 #main-headline {
+    margin-left: -1rem;
+    margin-right: -1rem;
+
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    display: block;
+    background-color: rgba(37, 66, 111, 0.8);
+}
+
+#main-tagline {
     margin-top: 1rem;
 }
 
@@ -168,6 +180,10 @@ footer .footer-text {
 
 #main-chevron a {
     color: white;
+}
+
+#main-rocket {
+    display: block;
 }
 
 #instagram-logo {
@@ -215,4 +231,20 @@ footer .footer-text {
     body {
         margin: 0;
     }
+}
+
+.fa-rocket-up {
+    /*transform*/
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    /*transform-origin*/
+    -webkit-transform-origin: 5% 40% 0;
+    -moz-transform-origin: 5% 40% 0;
+    -ms-transform-origin: 5% 40% 0;
+    -o-transform-origin: 5% 40% 0;
+    transform-origin: 5% 40% 0;
 }
