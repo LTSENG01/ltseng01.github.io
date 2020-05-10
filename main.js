@@ -12,5 +12,5 @@ typed.stop();
 
 $(document).ready(() => {
     setTimeout(() => typed.start(), 500);
-
 });
+

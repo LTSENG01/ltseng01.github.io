@@ -31,6 +31,14 @@
 }
 
 @font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono-Light.woff2') format('woff2'),
+    url('RobotoMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Source Sans Pro';
     src: url('SourceSansPro-Regular.woff2') format('woff2'),
     url('SourceSansPro-Regular.woff') format('woff');
