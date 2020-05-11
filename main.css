@@ -5,7 +5,7 @@
 
 body {
     overflow-x: hidden;
-    max-width: 100%;
+    /*max-width: 100%;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,10 +31,14 @@ h5, h6, p {
     text-align: center;
 }
 
+a {
+    color: white;
+}
+
 footer {
-    background-color: #F8F8F8;
-    padding: 5px;
-    border-top: 1px solid #E7E7E7;
+    background-color: #21283d;
+    padding: 10px;
+    color: white;
 }
 
 footer .footer-text {
@@ -76,24 +80,32 @@ footer .footer-text {
 
 /* Class Styles */
 
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .page {
     padding-top: 1rem;
-    padding-bottom: 5rem;
-    min-width: 100%;
+    padding-bottom: 2rem;
+    min-width: 100vw;
     min-height: 50vh;
 }
 
-.life-container {
-    padding-left: 5vw;
-    padding-right: 5vw;
+.section {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    min-width: 100vw;
+    min-height: 25vh;
 }
 
-.life-icon {
-    border: 1px solid black;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    padding-top: 40px;
+.section-header {
+    margin-bottom: 2rem;
 }
 
 /* BTN CIRCLE */
@@ -160,7 +172,7 @@ footer .footer-text {
     padding-bottom: 0.5rem;
 
     display: block;
-    background-color: rgba(37, 66, 111, 0.8);
+    background-color: rgba(27, 62, 113, 0.8);
 }
 
 #main-tagline {
@@ -175,7 +187,13 @@ footer .footer-text {
     font-size: 1.75rem;
     position: absolute;
     bottom: 2%;
-    left: 49%;
+    left: 49.5%;
+
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
 }
 
 #main-chevron a {
@@ -199,6 +217,11 @@ footer .footer-text {
     padding-top: 35px!important;
 }
 
+#contact {
+    color: white;
+    background-color: #800108;  /* todo CHANGE */
+}
+
 /* MEDIA STYLES */
 @media screen and (min-width: 992px) {
     .btn-circle.btn-xl {
@@ -215,21 +238,17 @@ footer .footer-text {
 
 }
 
+/* Tablets */
 @media (max-width: 768px) {
-    .life-icon {
-        height: 100px;
-        width: 100px;
-        padding-top: 15px;
-    }
     #code-icon {
         padding-top: 15px !important;
     }
 }
 
+/* Phones */
 @media (max-width: 530px) {
-    .main-content,
-    body {
-        margin: 0;
+    #main-chevron {
+        left: 49%;
     }
 }
 

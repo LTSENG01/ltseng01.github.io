@@ -16,13 +16,14 @@ $(document).ready(() => {
 
     $("#main-chevron").click((e) => {
         let rocketSelector = $("#main-rocket");
+        let chevronSelector = $(".fa-chevron-down");
         rocketSelector.addClass("animate__animated animate__fadeIn");
         rocketSelector.show();
-        $(".fa-chevron-down").hide();
+        chevronSelector.hide();
 
         setTimeout(() => {
-            $("#main-rocket").hide();
-            $(".fa-chevron-down").show();
+            rocketSelector.hide();
+            chevronSelector.show();
         }, 1500);
     });
 });
