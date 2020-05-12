@@ -5,7 +5,6 @@
 
 body {
     overflow-x: hidden;
-    /*max-width: 100%;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,24 +87,79 @@ footer .footer-text {
 .page {
     padding-top: 1rem;
     padding-bottom: 2rem;
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 50vh;
 }
 
 .section {
     padding-top: 1rem;
-    padding-bottom: 2rem;
-    min-width: 100vw;
+    padding-bottom: 1rem;
+    min-width: 100%;
     min-height: 25vh;
 }
 
 .container {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .section-header {
     margin-bottom: 2rem;
+}
+
+.small-text {
+    font-size: 0.75rem;
+}
+
+.rounded-circle {
+    border: rgba(33, 40, 61, 0.75) 2px solid;
+}
+
+.highline {
+    padding-left: 1px;
+    padding-right: 1px;
+    color: black;
+}
+
+.highline:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.highline-maroon {
+    border-bottom: 3px solid rgba(128, 1, 8, 0.75);
+    background-color: rgba(193, 51, 59, 0.2);
+}
+
+.highline-maroon:hover {
+    color: rgb(128, 1, 8);
+}
+
+.highline-yellow {
+    border-bottom: 3px solid rgba(232, 195, 36, 0.75);
+    background-color: rgba(232, 200, 44, 0.2);
+}
+
+.highline-yellow:hover {
+    color: rgb(232, 195, 36);
+}
+
+.highline-green {
+    border-bottom: 3px solid rgba(56, 147, 5, 0.75);
+    background-color: rgba(102, 206, 57, 0.2);
+}
+
+.highline-green:hover {
+    color: rgb(56, 147, 5);
+}
+
+.highline-blue {
+    border-bottom: 3px solid rgba(56, 97, 220, 0.75);
+    background-color: rgba(50, 159, 255, 0.2);
+}
+
+.highline-blue:hover {
+    color: rgb(56, 97, 220);
 }
 
 /* BTN CIRCLE */
@@ -208,6 +262,15 @@ footer .footer-text {
     background-color: #F5F5F5;
 }
 
+#about-photo {
+    padding-bottom: 3rem;
+}
+
+#about-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 #instagram-logo {
     background-image: url("images/instagram-gradient.png");
     background-size: 100px 100px;
@@ -241,22 +304,32 @@ footer .footer-text {
     }
 }
 
-/* Large Desktops */
-@media (min-width: 1000px) {
-
-}
-
-/* Tablets */
-@media (max-width: 768px) {
-    #code-icon {
-        padding-top: 15px !important;
+/* Large Desktops (md, lg, xl) */
+@media (min-width: 991px) {
+    #about-photo {
+        padding-top: 1rem;
     }
 }
 
-/* Phones */
-@media (max-width: 530px) {
+/* Small Tablets (sm) */
+@media (max-width: 767px) {
+    #about-photo {
+        padding-top: 6rem;
+    }
+    #code-icon {
+        padding-top: 15px !important;
+    }
+
+}
+
+/* Phones (xs) */
+@media (max-width: 575px) {
     #main-chevron {
         left: 49%;
+    }
+
+    #about-photo {
+        padding-top: 0;
     }
 }
 
