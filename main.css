@@ -304,10 +304,24 @@ footer .footer-text {
     }
 }
 
-/* Large Desktops (md, lg, xl) */
-@media (min-width: 991px) {
+/* Extra Large (xl) */
+@media (min-width: 1200px) {
     #about-photo {
-        padding-top: 1rem;
+        padding-top: 1.5rem;
+    }
+}
+
+/* Large Desktops (md, lg) */
+@media (max-width: 1199px) {
+    #about-photo {
+        padding-top: 0rem;
+    }
+}
+
+/* Medium (md) */
+@media (max-width: 991px) {
+    #about-photo {
+        padding-top: 3rem;
     }
 }
 
@@ -325,7 +339,7 @@ footer .footer-text {
 /* Phones (xs) */
 @media (max-width: 575px) {
     #main-chevron {
-        left: 49%;
+        left: 47%;
     }
 
     #about-photo {
