@@ -85,11 +85,6 @@ footer .footer-text {
     padding-right: 0;
 }
 
-.container {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
 .page {
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -102,6 +97,11 @@ footer .footer-text {
     padding-bottom: 2rem;
     min-width: 100vw;
     min-height: 25vh;
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .section-header {
@@ -204,12 +204,20 @@ footer .footer-text {
     display: block;
 }
 
+#about-me {
+    background-color: #F5F5F5;
+}
+
 #instagram-logo {
     background-image: url("images/instagram-gradient.png");
     background-size: 100px 100px;
 }
 
 #projects {
+    background-color: #FFFFFF;
+}
+
+#resume {
     background-color: #F5F5F5;
 }
 
@@ -219,7 +227,7 @@ footer .footer-text {
 
 #contact {
     color: white;
-    background-color: #800108;  /* todo CHANGE */
+    background-color: #800108;
 }
 
 /* MEDIA STYLES */
