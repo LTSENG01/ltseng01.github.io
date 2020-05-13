@@ -314,7 +314,7 @@ footer .footer-text {
 /* Large Desktops (md, lg) */
 @media (max-width: 1199px) {
     #about-photo {
-        padding-top: 0rem;
+        padding-top: 0;
     }
 }
 
