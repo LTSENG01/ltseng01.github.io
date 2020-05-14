@@ -110,6 +110,10 @@ footer .footer-text {
     padding-bottom: 1rem;
 }
 
+.container-constrained {
+    max-width: 100%;
+}
+
 .section-header {
     margin-bottom: 2rem;
 }
@@ -333,16 +337,15 @@ footer .footer-text {
     }
 
     #about-photo {
-        padding-top: 0;
+        padding-top: 2.5rem;
     }
 }
 
 /* Medium (md) */
 @media (max-width: 991px) {
     .container-constrained {
-        max-width: 80%;
+        max-width: 100%;
     }
-
     #about-photo {
         padding-top: 3rem;
     }
@@ -350,6 +353,9 @@ footer .footer-text {
 
 /* Small Tablets (sm) */
 @media (max-width: 767px) {
+    .container-constrained {
+        max-width: 100%;
+    }
     #about-photo {
         padding-top: 6rem;
     }
@@ -361,6 +367,9 @@ footer .footer-text {
 
 /* Phones (xs) */
 @media (max-width: 575px) {
+    .container-constrained {
+        max-width: 100%;
+    }
     #main-chevron {
         left: 47%;
     }
