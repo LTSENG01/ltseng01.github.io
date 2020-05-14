@@ -18,12 +18,19 @@ h1, h2 {
 }
 
 h3, h4 {
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-weight: normal !important;
     font-style: normal;
 }
 
-h5, h6, p {
+h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal;
+    text-align: left;
+}
+
+p {
     font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 300 !important;
     font-style: normal;
@@ -109,6 +116,10 @@ footer .footer-text {
 
 .small-text {
     font-size: 0.75rem;
+}
+
+.small-logo {
+    max-width: 40px;
 }
 
 .rounded-circle {
@@ -306,6 +317,10 @@ footer .footer-text {
 
 /* Extra Large (xl) */
 @media (min-width: 1200px) {
+    .container-constrained {
+        max-width: 60%;
+    }
+
     #about-photo {
         padding-top: 1.5rem;
     }
@@ -313,6 +328,10 @@ footer .footer-text {
 
 /* Large Desktops (md, lg) */
 @media (max-width: 1199px) {
+    .container-constrained {
+        max-width: 60%;
+    }
+
     #about-photo {
         padding-top: 0;
     }
@@ -320,6 +339,10 @@ footer .footer-text {
 
 /* Medium (md) */
 @media (max-width: 991px) {
+    .container-constrained {
+        max-width: 80%;
+    }
+
     #about-photo {
         padding-top: 3rem;
     }
