@@ -48,7 +48,7 @@
             <div class="container">
                 <div class="row">
                     <div class="offset-4 col-4 offset-sm-0 col-sm-4 offset-md-0 col-md-3 offset-lg-1 col-lg-2 offset-xl-2 col-xl-2 text-center" id="about-photo">
-                        <img src="./images/profile.png" alt="Profile Picture" class="rounded-circle img-fluid">
+                        <img src="./images/profile.png" alt="Profile Picture" class="rounded-circle-border img-fluid">
                     </div>
                     <div class="col-12 col-sm-8 col-md-9 col-lg-9 col-xl-7" id="about-content">
                         <p class="text-left">I am an undergraduate at <a href="https://umass.edu/" target="_blank" class="highline highline-maroon"> UMass Amherst</a> pursuing degrees in Computer
@@ -74,33 +74,119 @@
         </div>
         <!-- RESUME SECTION -->
         <div class="page" id="resume">
-            <div class="container">
+            <div class="container text-center">
                 <h2 class="section-header">Resume</h2>
+                <!-- Education -->
                 <div class="container-fluid container-constrained">
                     <div class="row">
-                        <div class="offset-2 col-10">
+                        <div class="offset-1 col-11">
                             <h4 class="text-left">Education</h4>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-2 text-right">
+                        <div class="col-1 text-right">
                             <img src="./images/umass.png" class="small-logo">
                         </div>
                         <div class="col-8">
                             <h5>University of Massachusetts Amherst</h5>
+                            <h6>GPA: 3.94, Dean's List</h6>
                         </div>
-                        <div class="col-2 text-right">2019-2023</div>
+                        <div class="col-3">
+                            <h6 class="text-right">2019-2023</h6>
+                            <h6 class="text-right">Amherst, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-1 col-1 text-right">
+                            <img src="./images/cics.jpg" class="small-logo rounded-circle">
+                        </div>
+                        <div class="col-9">
+                            <h6>Bachelor of Science, Computer Science</h6>
+                            <h6><em>College of Information and Computer Sciences</em></h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-1 col-1 text-right">
+                            <img src="./images/isenberg.png" class="small-logo">
+                        </div>
+                        <div class="col-9">
+                            <h6>Bachelor of Business Administration, Management</h6>
+                            <h6><em>Isenberg School of Management</em></h6>
+                        </div>
                     </div>
                 </div>
+                <!-- Experience -->
+                <div class="container-fluid container-constrained">
+                    <div class="row">
+                        <div class="offset-1 col-11">
+                            <h4 class="text-left">Work Experience</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 text-right">
+                            <img src="./images/savant.png" class="small-logo">
+                        </div>
+                        <div class="col-8">
+                            <h5>Savant Systems</h5>
+                            <h6>Software Engineering Intern</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-right">Summer, 2019</h6>
+                            <h6 class="text-right">Hyannis, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 text-right">
+                            <img src="./images/clearmotion.png" class="small-logo">
+                        </div>
+                        <div class="col-8">
+                            <h5>ClearMotion</h5>
+                            <h6>Software Engineering Intern</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-right">Summer, 2018</h6>
+                            <h6 class="text-right">Woburn, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 text-right">
+                            <img src="./images/sail.png" class="small-logo">
+                        </div>
+                        <div class="col-8">
+                            <h5>Secure AI Labs</h5>
+                            <h6>Software Development Intern</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-right">2017-2018</h6>
+                            <h6 class="text-right">Cambridge, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 text-right">
+                            <img src="./images/umass.png" class="small-logo">
+                        </div>
+                        <div class="col-8">
+                            <h5>Westwood Robotics</h5>
+                            <h6>President</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-right">2017-2019</h6>
+                            <h6 class="text-right">Westwood, MA</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Download Resume -->
+                <a class="btn btn-outline-secondary a-button" role="button">Download Resume</a>
             </div>
+
         </div>
         <!-- CONTACT ME SECTION --> <!-- todo make this shorter -->
         <div class="section" id="contact">
             <div class="container">
                 <h2 class="section-header">Contact Me</h2>
                 <div class="text-center">
-                    <p><i class="fa fa-envelope-o fa-2x"></i>&nbsp
-                        <a href="mailto:lt222888@gmail.com" style="font-size: 25px;">lt222888@gmail.com</a>
+                    <p>
+                        <a href="mailto:larry.tseng.1@gmail.com">larry.tseng.1@gmail.com</a>
                     </p>
                 </div>
                 <div class="row social-media-buttons">
@@ -116,10 +202,11 @@
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="https://www.unsplash.com/ltseng01" title="Unsplash" target="_blank" role="button" class="btn btn-default btn-circle btn-xl hvr-grow" style="background-color: #000000; color: white;">
-                            <i class="fa fa-camera fa-3x" aria-hidden="true" style="margin-top: 0px"></i>
+                            <i class="fa fa-camera fa-3x" aria-hidden="true" style="margin-top: 0"></i>
                         </a>
                     </div>
                 </div>
+                <a href="http://keyserver.ubuntu.com/pks/lookup?search=0x87c1c466860cc78a&fingerprint=on&op=index" target="_blank" class="text-center">PGP Key ID: 87c1c466860cc78a</a>
             </div>
         </div>
         <footer id="footer">
