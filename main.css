@@ -375,16 +375,25 @@ footer .footer-text {
 
 /* Small Tablets (sm) */
 @media (max-width: 767px) {
+
+    /* iPhone X+ landscape */
+    /*noinspection ALL*/
+    .page, .section {
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }
+
     .container-constrained {
         max-width: 100%;
     }
+
     #about-photo {
         padding-top: 6rem;
     }
+
     #code-icon {
         padding-top: 15px !important;
     }
-
 }
 
 /* Phones (xs) */
