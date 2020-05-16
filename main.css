@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #21283d;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,7 +55,7 @@ a {
 
 footer {
     background-color: #21283d;
-    padding: 10px;
+    padding: 0.25rem;
     color: white;
 }
 
@@ -64,7 +65,7 @@ footer .footer-text {
     font-style: normal;
     font-size: 0.75rem;
 
-    margin-top: .5rem;
+    margin-top: 0.75rem;
 }
 
 /* Connect section at bottom */
@@ -143,6 +144,7 @@ footer .footer-text {
 
 .small-logo {
     max-width: 40px;
+    margin-top: 0.3rem;
 }
 
 .rounded-circle-border {
@@ -283,13 +285,13 @@ footer .footer-text {
     font-size: 1.75rem;
     position: absolute;
     bottom: 2%;
-    left: 49.5%;
+    left: 49.25%;
 
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
-    transform: translate(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #main-chevron a {
@@ -377,10 +379,11 @@ footer .footer-text {
 @media (max-width: 767px) {
 
     /* iPhone X+ landscape */
-    /*noinspection ALL*/
+    /* noinspection ALL */
     .page, .section {
         padding-left: env(safe-area-inset-left);
         padding-right: env(safe-area-inset-right);
+        padding-bottom: env(safe-area-inset-bottom);
     }
 
     .container-constrained {
@@ -394,6 +397,10 @@ footer .footer-text {
     #code-icon {
         padding-top: 15px !important;
     }
+
+    #main-chevron {
+        left: 48%;
+    }
 }
 
 /* Phones (xs) */
@@ -402,7 +409,7 @@ footer .footer-text {
         max-width: 100%;
     }
     #main-chevron {
-        left: 47%;
+        left: 46.75%;
     }
 
     #about-photo {
