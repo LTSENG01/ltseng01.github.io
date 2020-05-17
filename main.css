@@ -69,7 +69,7 @@ footer .footer-text {
     margin-bottom: 0.5rem;
 }
 
-/* Connect section at bottom */
+/* Connect section at bottom TODO DELETE */
 
 .social-media-buttons {
     text-align: center;
@@ -101,6 +101,7 @@ footer .footer-text {
 
 /* Class Styles */
 
+    /* Blocks */
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -131,12 +132,12 @@ footer .footer-text {
     margin-bottom: 2rem;
 }
 
-.container-constrained .row {
+.container-constrained .row.exp {
     margin-bottom: 0.5rem;
 }
 
 .row {
-    padding-bottom: 1rem;
+    padding-bottom: 1.1rem;
 }
 
 .section-header {
@@ -168,6 +169,8 @@ footer .footer-text {
     color: white !important;
 }
 
+/* Skills */
+
 .skills-block {
     display: inline-block;
     padding-left: 0.5rem;
@@ -175,12 +178,35 @@ footer .footer-text {
     margin-bottom: 3px;
 
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
     font-size: 0.90rem;
-    color: #2098d1;
+    color: rgb(24, 105, 177);
 
     border-radius: 5px;
-    border: 1px solid #2098d1;
+    border: 1px solid rgb(24, 105, 177);
 }
+
+.skills-block-gray {
+    color: gray;
+    border: 1px solid gray;
+}
+
+.skills-block-maroon {
+    color: #800108;
+    border: 1px solid #800108;
+}
+
+.skills-block-orange {
+    color: rgb(238, 124, 3);
+    border: 1px solid rgb(238, 124, 3);
+}
+
+.skills-block-yellow {
+    color: rgb(242, 185, 73);
+    border: 1px solid rgb(242, 185, 73);
+}
+
+/* highline (highlight + underline) */
 
 .highline {
     padding-left: 1px;
@@ -346,6 +372,10 @@ footer .footer-text {
     background-color: #F5F5F5;
 }
 
+#resume h5 {
+    margin-bottom: 0.25rem;
+}
+
 #code-icon {
     padding-top: 35px!important;
 }
@@ -424,6 +454,8 @@ footer .footer-text {
         left: 48%;
     }
 }
+
+/* TODO FIX HEADLINE ON MOBILE */
 
 /* Phones (xs) */
 @media (max-width: 575px) {
