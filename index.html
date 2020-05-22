@@ -23,12 +23,13 @@
 </head>
 <body>
     <div class="container-fluid">
+
         <!-- HOME SECTION -->
         <div class="page" id="home">
             <div id="center-textbox">
                 <h1 id="main-headline">Hi, I'm Larry Tseng.</h1>
                 <div id="main-tagline">
-                    <h4>I'm a<span id="typed"></span><noscript> software engineer. &nbsp; &darr;</noscript></h4>
+                    <h4>I'm a<span id="typed"></span><noscript> software engineer.</noscript></h4>
                     <div id="typed-strings" hidden>
                         <p>&nbsp;software engineer.</p>
                         <p>&nbsp;full stack developer.</p>
@@ -39,10 +40,11 @@
                 </div>
             </div>
             <div class="animate__animated animate__bounce animate__delay-5s animate__repeat-3" id="main-chevron">
-                <i class="fas fa-rocket fa-rocket-up" id="main-rocket"></i>
+                <i class="fas fa-rocket fa-rocket-up" id="main-rocket" hidden></i> <!-- hidden for no JS -->
                 <a href="#about-me" id="scroll-about-link"><i class="fas fa-chevron-down"></i></a>
             </div>
         </div>
+
         <!-- ABOUT ME SECTION --> <!-- todo change links to link.ltseng.me -->
         <div class="section" id="about-me">
             <div class="container">
@@ -66,6 +68,7 @@
                 </div>
             </div>
         </div>
+
         <!-- PROJECTS SECTION -->
         <div class="page" id="projects">
             <div class="container text-center">
@@ -74,6 +77,7 @@
                 <a class="btn btn-outline-secondary a-button" role="button">Visit GitHub Profile</a>
             </div>
         </div>
+
         <!-- RESUME SECTION -->
         <div class="page" id="resume">
             <div class="container text-center">
@@ -210,37 +214,50 @@
                 </div>
             </div>
         </div>
-        <!-- CONTACT ME SECTION --> <!-- todo make this shorter -->
+
+        <!-- CONTACT ME SECTION -->
         <div class="section" id="contact">
-            <div class="container">
+            <div class="container container-constrained">
                 <h2 class="section-header">Contact Me</h2>
-                <div class="text-center">
-                    <p>
+                <div class="row">
+                    <div class="col-4 col-sm-5 text-right">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-envelope fa-stack-1x fa-lg black"></i>
+                        </span>
+                    </div>
+                    <div class="col-6 col-sm-7 text-left regular-text">
                         <a href="mailto:larry.tseng.1@gmail.com">larry.tseng.1@gmail.com</a>
-                    </p>
-                </div>
-                <div class="row social-media-buttons">
-                    <div class="col-xs-6 col-sm-4">
-                        <a href="https://www.linkedin.com/in/ltseng01" title="LinkedIn" target="_blank" role="button" class="btn btn-default btn-circle btn-xl hvr-grow" style="background-color: #007BB5; color: white;">
-                            <i class="fab fa-linkedin fa-3x" aria-hidden="true" style="margin-top: 3px"></i>
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-sm-4">
-                        <a href="https://www.github.com/ltseng01" title="Github" target="_blank" role="button" class="btn btn-default btn-circle btn-xl hvr-grow" style="background-color: #000000; color: white;">
-                            <i class="fab fa-github fa-3x" aria-hidden="true" style="margin-top: 3px"></i>
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-sm-4">
-                        <a href="https://www.unsplash.com/ltseng01" title="Unsplash" target="_blank" role="button" class="btn btn-default btn-circle btn-xl hvr-grow" style="background-color: #000000; color: white;">
-                            <i class="fa fa-camera fa-3x" aria-hidden="true" style="margin-top: 0"></i>
-                        </a>
+                        <br>
+                        <a href="http://keyserver.ubuntu.com/pks/lookup?search=0x87c1c466860cc78a&fingerprint=on&op=index" target="_blank" class="text-center small-text">PGP ID: 87c1c466860cc78a</a>
                     </div>
                 </div>
-                <a href="http://keyserver.ubuntu.com/pks/lookup?search=0x87c1c466860cc78a&fingerprint=on&op=index" target="_blank" class="text-center">PGP Key ID: 87c1c466860cc78a</a>
+                <div class="row">
+                    <div class="col-4 col-sm-5 text-right">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-linkedin fa-stack-1x fa-lg black"></i>
+                        </span>
+                    </div>
+                    <div class="col-6 col-sm-7 text-left regular-text">
+                        <a href="#">linkedin.com/in/LTSENG01</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 col-sm-5 text-right">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-github fa-stack-1x fa-lg black"></i>
+                        </span>
+                    </div>
+                    <div class="col-6 col-sm-7 text-left regular-text">
+                        <a href="#">github.com/LTSENG01</a>
+                    </div>
+                </div>
             </div>
         </div>
         <footer id="footer">
-            <h4 class="footer-text">&copy; 2020 Larry Tseng.</h4>
+            <h4 class="footer-text">&copy; 2020 Larry Tseng</h4>
         </footer>
     </div>
 
