@@ -491,11 +491,11 @@ footer .footer-text {
 /* Phones (xs) */
 @media only screen and (max-width: 575px) {
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.8rem; }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.6rem; }
     h3 { font-size: 1.6rem; }
     h4 { font-size: 1.4rem; }
 
@@ -504,7 +504,45 @@ footer .footer-text {
     }
 
     #center-textbox {
-        width: 320px;
+        width: 95%;
+    }
+    #main-headline {
+        font-size: 9vw;
+    }
+    #main-tagline h4 {
+        font-size: 5vw;
+    }
+    #main-chevron {
+        left: 46.75%;
+    }
+    #about-photo {
+        padding-top: 0;
+    }
+}
+
+/* Super Small Phones */
+@media only screen and (max-width: 375px) {
+    html {
+        font-size: 16px;
+    }
+
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.6rem; }
+    h3 { font-size: 1.6rem; }
+    h4 { font-size: 1.4rem; }
+
+    .container-constrained {
+        max-width: 100%;
+    }
+
+    #center-textbox {
+        max-width: 95%;
+    }
+    #main-headline {
+        font-size: 8.5vw;
+    }
+    #main-tagline h4 {
+        font-size: 5vw;
     }
     #main-chevron {
         left: 46.75%;
