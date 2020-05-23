@@ -139,11 +139,9 @@ footer .footer-text {
 }
 
 .a-button {
-    color: gray !important;
-}
-
-.a-button:hover {
     color: white !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 /* Skills */
@@ -488,17 +486,27 @@ footer .footer-text {
     }
 }
 
-/* TODO FIX HEADLINE ON MOBILE */
-
 /* Phones (xs) */
 @media only screen and (max-width: 575px) {
+    html {
+        font-size: 14px;
+    }
+
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.6rem; }
+    h4 { font-size: 1.4rem; }
+
     .container-constrained {
         max-width: 100%;
+    }
+
+    #center-textbox {
+        width: 320px;
     }
     #main-chevron {
         left: 46.75%;
     }
-
     #about-photo {
         padding-top: 0;
     }
