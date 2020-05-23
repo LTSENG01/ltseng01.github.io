@@ -26,4 +26,10 @@ $(document).ready(() => {
             chevronSelector.show();
         }, 1500);
     });
+
+    const linkCard = $('.link-card');
+    const tilt = linkCard.tilt();
+    $('.link-no-decor').on('mouseup touchend', () => {
+        tilt.tilt.reset.call(tilt);
+    });
 });
