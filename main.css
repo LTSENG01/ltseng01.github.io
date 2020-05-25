@@ -141,9 +141,9 @@ footer .footer-text {
 .a-button {
     color: white !important;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 /* Skills */
@@ -426,11 +426,21 @@ footer .footer-text {
     margin-bottom: 0;
 }
 
+#pgp {
+    margin-top: 2rem;
+}
+
 
 /* MEDIA STYLES */
 
 /* Extra Large (xl) */
 @media only screen and (min-width: 1200px) {
+    /* iPhone X+ landscape */
+    /*noinspection ALL*/
+    body {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+
     .container-constrained {
         max-width: 60%;
     }
