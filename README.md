@@ -2,4 +2,4 @@
 
 New website in progress!
 
-Targeting completion by June 15.
+The alpha v0.1 development release is now public.
