@@ -101,6 +101,9 @@ footer .footer-text {
     max-width: 100%;
     margin-top: 2rem;
     margin-bottom: 1rem;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-constrained .row.exp {
@@ -313,7 +316,6 @@ footer .footer-text {
     transform-origin: 5% 40% 0;
 }
 
-
 /* ID Styles */
 
 #home {
@@ -325,8 +327,21 @@ footer .footer-text {
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
-    text-shadow: #375fd5 0 0 7px;
+}
+
+#top-alert {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    line-height: 0;
+    padding-bottom: 0.25rem;
 }
 
 #center-textbox {
@@ -344,6 +359,9 @@ footer .footer-text {
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+
+    color: white;
+    text-shadow: #375fd5 0 0 7px;
 }
 
 #main-headline {
@@ -522,6 +540,10 @@ footer .footer-text {
 
     .container-constrained {
         max-width: 100%;
+    }
+
+    #top-alert {
+        width: 85vw;
     }
 
     #center-textbox {

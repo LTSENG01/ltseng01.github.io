@@ -41,6 +41,6 @@ $(document).ready(() => {
         setTimeout(() => {
             emailText.text("Email");
             emailText.css("font-size", "1.6rem");
-        }, 5000);
+        }, 10000);
     });
 });
