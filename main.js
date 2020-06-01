@@ -32,4 +32,15 @@ $(document).ready(() => {
     $('.link-no-decor').on('mouseup touchend', () => {
         tilt.tilt.reset.call(tilt);
     });
+
+    $("#email").click(e => {
+        let emailText = $("#email-text");
+        emailText.text("larry.tseng.1@gmail.com");
+        emailText.css("font-size", "0.75rem");
+
+        setTimeout(() => {
+            emailText.text("Email");
+            emailText.css("font-size", "1.6rem");
+        }, 5000);
+    });
 });
