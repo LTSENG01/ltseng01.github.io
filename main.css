@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
     background-color: #21283d;
+    color: #333;    /* base gray for text */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,6 +17,10 @@ h1, h2 {
     font-family: 'Raleway', sans-serif !important;
     font-weight: 800 !important;
     font-style: normal;
+}
+
+h2 :not(#contact-me) {
+    color: #505050;     /* page/section headers gray */
 }
 
 h3, h4 {
@@ -50,13 +55,13 @@ p, .regular-text {
 }
 
 a {
-    color: white;
+    color: #fcfcfc;
 }
 
 footer {
     background-color: #21283d;
     padding: 0.25rem;
-    color: white;
+    color: #fcfcfc;
 }
 
 footer .footer-text {
@@ -142,11 +147,10 @@ footer .footer-text {
 }
 
 .a-button {
-    color: white !important;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
 
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 /* Skills */
@@ -195,7 +199,7 @@ footer .footer-text {
 }
 
 .highline:hover {
-    color: white;
+    color: #fcfcfc;
     text-decoration: none;
 }
 
@@ -251,7 +255,7 @@ footer .footer-text {
     height: 5rem;
     max-width: 17.5rem;
 
-    background-color: #F5F5F5;
+    background-color: #f7f7f7;
     border-radius: 15px;
     box-shadow: 0 0 15px #494949;
 }
@@ -279,11 +283,11 @@ footer .footer-text {
 }
 
 .link-card:hover h3 {
-    color: rgb(255, 255, 255);
+    color: #fcfcfc;
 }
 
 .link-decor:hover {
-    color: white;
+    color: #fcfcfc;
     text-decoration: underline;
 }
 
@@ -296,7 +300,7 @@ footer .footer-text {
 }
 
 .link-no-decor:hover {
-    color: white;
+    color: #fcfcfc;
     text-decoration: none;
 }
 
@@ -360,7 +364,7 @@ footer .footer-text {
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 
-    color: white;
+    color: #fcfcfc;
     text-shadow: #375fd5 0 0 7px;
 }
 
@@ -398,7 +402,7 @@ footer .footer-text {
 }
 
 #main-chevron a {
-    color: white;
+    color: #fcfcfc;
 }
 
 #main-rocket {
@@ -406,7 +410,7 @@ footer .footer-text {
 }
 
 #about-me {
-    background-color: #F5F5F5;
+    background-color: #f7f7f7;
 }
 
 #about-photo {
@@ -419,11 +423,11 @@ footer .footer-text {
 }
 
 #projects {
-    background-color: #FFFFFF;
+    background-color: #fcfcfc;
 }
 
 #resume {
-    background-color: #F5F5F5;
+    background-color: #f7f7f7;
 }
 
 #resume h5 {
@@ -435,7 +439,7 @@ footer .footer-text {
 }
 
 #contact {
-    color: white;
+    color: #fcfcfc;
     background-color: #800108;
 }
 
