@@ -11,9 +11,12 @@ let typed = new Typed('#typed', typedOptions);
 typed.stop();
 
 $(document).ready(() => {
+
+    // Start typing library, hide rocket
     setTimeout(() => typed.start(), 500);
     $("#main-rocket").hide();
 
+    // Click handler for the down arrow
     $("#main-chevron").click((e) => {
         let rocketSelector = $("#main-rocket");
         let chevronSelector = $(".fa-chevron-down");
@@ -27,12 +30,14 @@ $(document).ready(() => {
         }, 1500);
     });
 
+    // Reset card tilt (for mobile)
     const linkCard = $('.link-card');
     const tilt = linkCard.tilt();
     $('.link-no-decor').on('mouseup touchend', () => {
         tilt.tilt.reset.call(tilt);
     });
 
+    // Email click handler to display email in case of broken mailto links
     $("#email").click(e => {
         let emailText = $("#email-text");
         emailText.text("larry.tseng.1@gmail.com");
