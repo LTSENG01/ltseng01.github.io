@@ -247,13 +247,14 @@ footer .footer-text {
     display: flex;
     align-items: center;
 
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.75rem;
     padding-bottom: 0;
 
-    height: 5rem;
-    max-width: 17.5rem;
+    width: 100%;
+    min-height: 6rem;
 
     background-color: #f7f7f7;
     border-radius: 15px;
@@ -547,7 +548,7 @@ footer .footer-text {
     }
 
     h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.6rem; }
+    h2 { font-size: 1.8rem; }
     h3 { font-size: 1.6rem; }
     h4 { font-size: 1.4rem; }
 
@@ -583,7 +584,7 @@ footer .footer-text {
     }
 
     h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.6rem; }
+    h2 { font-size: 1.8rem; }
     h3 { font-size: 1.6rem; }
     h4 { font-size: 1.4rem; }
 

@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no viewport-fit=cover">
 	<meta name="keywords" content="Larry Tseng, UMass Amherst, CICS, Westwood High School, Web Developer, Programmer, Photographer, Robotics, Game Developer, App Developer, iOS">
+    <meta name="description" content="Hi, I'm Larry Tseng. I am an undergraduate at at UMass Amherst pursuing degrees in Computer Science and Management. My professional interests include iOS development, full stack development, software engineering, project management, UI/UX design, and graphic design."> <!-- TODO -->
 	<meta name="author" content="Larry Tseng">
 
     <meta property="og:title" content="Larry Tseng">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://ltseng.me/images/main.png">
     <meta property="og:url" content="https://ltseng.me">
+    <meta property="og:description" content="Hi, I'm Larry Tseng. I am an undergraduate at at UMass Amherst pursuing degrees in Computer Science and Management. My professional interests include iOS development, full stack development, software engineering, project management, UI/UX design, and graphic design.">
+
+    <link rel="canonical" href="https://ltseng.me"/>
 
     <title>Larry Tseng</title>
 
@@ -26,7 +30,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 </head>
-<!-- TODO: change links, add projects, resize images, remove alert, upload resume to server -->
+<!-- TODO: change links (rel="noopener"), add projects, resize images, remove alert, upload resume to server -->
 <body>
     <div class="container-fluid">
 
@@ -124,7 +128,7 @@
                         </div>
                         <div class="col-6 col-sm-8">
                             <h5>University of Massachusetts Amherst</h5>
-                            <h6>GPA: 3.94, Dean's List</h6>
+                            <h6>GPA: 3.94, Dean's List Honors (all semesters)</h6>
                         </div>
                         <div class="col-4 col-sm-3 aux-info">
                             <h6 class="text-right">Amherst, MA</h6>
@@ -270,47 +274,56 @@
 
         <!-- CONTACT ME SECTION -->
         <div class="section" id="contact">
-            <div class="container container-constrained">
+            <div class="container">
                 <h2 class="section-header">Contact Me</h2>
-                <a href="mailto:larry.tseng.1@gmail.com" class="link-no-decor" role="button">
-                    <div class="link-card row" id="email" data-tilt>
-                        <div class="col-2 col-sm-3 text-right">
-                            <span class="fa-stack fa-2x">
-                                <i class="fas fa-circle fa-stack-2x near-black"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-lg"></i>
-                            </span>
-                        </div>
-                        <div class="offset-2 col-7 offset-sm-1 col-sm-8">
-                            <h3 class="near-black" id="email-text">Email</h3>
-                        </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <a href="mailto:larry.tseng.1@gmail.com" class="link-no-decor" role="button">
+                            <div class="link-card row" id="email" data-tilt>
+                                <div class="col-2 col-sm-3 text-right">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x near-black"></i>
+                                        <i class="fas fa-envelope fa-stack-1x fa-lg"></i>
+                                    </span>
+                                </div>
+                                <div class="offset-2 col-7 offset-sm-1 col-sm-8">
+                                    <h3 class="near-black" id="email-text">Email</h3>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a href="" target="_blank" class="link-no-decor" role="button">
-                    <div class="link-card row" id="linkedin" data-tilt>
-                        <div class="col-2 col-sm-3 text-right">
-                            <span class="fa-stack fa-2x">
-                                <i class="fas fa-circle fa-stack-2x near-black"></i>
-                                <i class="fab fa-linkedin fa-stack-1x fa-lg"></i>
-                            </span>
-                        </div>
-                        <div class="offset-2 col-7 offset-sm-1 col-sm-8">
-                            <h3 class="near-black unselectable">LinkedIn</h3>
-                        </div>
+                    <div class="col-12 col-lg-4">
+                        <a href="" target="_blank" class="link-no-decor" role="button">
+                            <div class="link-card row" id="linkedin" data-tilt>
+                                <div class="col-2 col-sm-3 text-right">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x near-black"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-lg"></i>
+                                    </span>
+                                </div>
+                                <div class="offset-2 col-7 offset-sm-1 col-sm-8">
+                                    <h3 class="near-black unselectable">LinkedIn</h3>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a href="" target="_blank" class="link-no-decor" role="button">
-                    <div class="link-card row" id="github" data-tilt>
-                        <div class="col-2 col-sm-3 text-right">
-                            <span class="fa-stack fa-2x">
-                                <i class="fas fa-circle fa-stack-2x near-black"></i>
-                                <i class="fab fa-github fa-stack-1x fa-lg"></i>
-                            </span>
-                        </div>
-                        <div class="offset-2 col-7 offset-sm-1 col-sm-8">
-                            <h3 class="near-black unselectable">GitHub</h3>
-                        </div>
+                    <div class="col-12 col-lg-4">
+                        <a href="" target="_blank" class="link-no-decor" role="button">
+                            <div class="link-card row" id="github" data-tilt>
+                                <div class="col-2 col-sm-3 text-right">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x near-black"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-lg"></i>
+                                    </span>
+                                </div>
+                                <div class="offset-2 col-7 offset-sm-1 col-sm-8">
+                                    <h3 class="near-black unselectable">GitHub</h3>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
 
                 <!-- PGP Key -->
                 <div class="text-center" id="pgp">
