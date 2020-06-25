@@ -1,5 +1,5 @@
-# ltseng01.github.io
+# Portfolio Website
 
-New website in progress!
+New website almost complete!
 
-The alpha v0.1 development release is now public.
+Visit it at https://ltseng.me/
