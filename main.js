@@ -32,7 +32,11 @@ $(document).ready(() => {
 
     // Reset card tilt (for mobile)
     const linkCard = $('.link-card');
-    const tilt = linkCard.tilt();
+    const tilt = linkCard.tilt({
+        perspective: 2000,
+        scale: 1.1,
+        speed: 200
+    });
     $('.link-no-decor').on('mouseup touchend', () => {
         tilt.tilt.reset.call(tilt);
     });
