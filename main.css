@@ -598,6 +598,10 @@ ul {
         max-width: 100%;
     }
 
+    .offset-1 {
+        margin-left: 3.5%;
+    }
+
     #center-textbox {
         max-width: 95%;
     }
