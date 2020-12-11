@@ -47,11 +47,11 @@ h6 {
     text-align: left;
 }
 
-p, .regular-text {
+p, .regular-text, li {
     font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 300 !important;
     font-style: normal;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -72,6 +72,10 @@ footer .footer-text {
 
     margin-top: 0.5rem;
     margin-bottom: 0.75rem;
+}
+
+ul {
+    padding-left: 30px;
 }
 
 
@@ -588,6 +592,7 @@ footer .footer-text {
     h2 { font-size: 1.8rem; }
     h3 { font-size: 1.6rem; }
     h4 { font-size: 1.4rem; }
+    li { font-size: 0.8rem; }
 
     .container-constrained {
         max-width: 100%;
