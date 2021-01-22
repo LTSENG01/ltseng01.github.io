@@ -157,92 +157,6 @@ ul {
     border-radius: 5px;
 }
 
-/* Skills */
-
-.skills-block {
-    display: inline-block;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 3px;
-
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: normal;
-    font-size: 0.90rem;
-    color: rgb(24, 105, 177);
-
-    border-radius: 5px;
-    border: 1px solid rgb(24, 105, 177);
-}
-
-.skills-block-gray {
-    color: gray;
-    border: 1px solid gray;
-}
-
-.skills-block-maroon {
-    color: #800108;
-    border: 1px solid #800108;
-}
-
-.skills-block-orange {
-    color: rgb(238, 124, 3);
-    border: 1px solid rgb(238, 124, 3);
-}
-
-.skills-block-yellow {
-    color: rgb(242, 185, 73);
-    border: 1px solid rgb(242, 185, 73);
-}
-
-/* highline (highlight + underline) */
-
-.highline {
-    padding-left: 1px;
-    padding-right: 1px;
-    color: black;
-}
-
-.highline:hover {
-    color: #fcfcfc;
-    text-decoration: none;
-}
-
-.highline-maroon {
-    border-bottom: 3px solid rgba(128, 1, 8, 0.75);
-    background-color: rgba(193, 51, 59, 0.2);
-}
-
-.highline-maroon:hover {
-    color: rgb(128, 1, 8);
-}
-
-.highline-yellow {
-    border-bottom: 3px solid rgba(232, 195, 36, 0.75);
-    background-color: rgba(232, 200, 44, 0.2);
-}
-
-.highline-yellow:hover {
-    color: rgb(232, 195, 36);
-}
-
-.highline-green {
-    border-bottom: 3px solid rgba(56, 147, 5, 0.75);
-    background-color: rgba(102, 206, 57, 0.2);
-}
-
-.highline-green:hover {
-    color: rgb(56, 147, 5);
-}
-
-.highline-blue {
-    border-bottom: 3px solid rgba(56, 97, 220, 0.75);
-    background-color: rgba(50, 159, 255, 0.2);
-}
-
-.highline-blue:hover {
-    color: rgb(56, 97, 220);
-}
-
 .near-black {
     color: #333;
 }
@@ -339,7 +253,7 @@ ul {
 #home {
     height: 100vh;
     padding-top: 30vh;
-    background-image: url("./images/splash3.jpg");
+    background-image: url("../images/splash3.jpg");
     background-size: cover;
     background-color: rgb(130, 132, 135);
     background-blend-mode: multiply;
