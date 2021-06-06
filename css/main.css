@@ -253,7 +253,7 @@ ul {
 #home {
     height: 100vh;
     padding-top: 30vh;
-    background-image: url("../images/splash3.jpg");
+    background-image: url("../images/splash.jpg");
     background-size: cover;
     background-color: rgb(130, 132, 135);
     background-blend-mode: multiply;
@@ -284,7 +284,7 @@ ul {
 
     /* centers it https://codepen.io/merb/pen/yOwJjj */
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
