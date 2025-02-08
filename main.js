@@ -44,7 +44,7 @@ $(document).ready(() => {
     // Email click handler to display email in case of broken mailto links
     $("#email").click(e => {
         let emailText = $("#email-text");
-        emailText.text("larry.tseng.1@gmail.com");
+        emailText.text("me@larrytseng.com");
         emailText.css("font-size", "0.75rem");
 
         setTimeout(() => {

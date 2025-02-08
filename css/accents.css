@@ -63,6 +63,16 @@
     color: rgb(232, 195, 36);
 }
 
+.highline-orange {
+    border-bottom: 3px solid rgba(255, 78, 30, 0.75);
+    background-color: rgba(232, 200, 44, 0.2);
+}
+
+.highline-orange:hover {
+    color: rgb(255, 78, 30);
+}
+
+
 .highline-green {
     border-bottom: 3px solid rgba(56, 147, 5, 0.75);
     background-color: rgba(102, 206, 57, 0.2);
@@ -79,4 +89,13 @@
 
 .highline-blue:hover {
     color: rgb(56, 97, 220);
+}
+
+.highline-purple {
+    border-bottom: 3px solid rgba(79, 44, 236, 0.75);
+    background-color: rgba(50, 159, 255, 0.2);
+}
+
+.highline-purple:hover {
+    color: rgb(79, 44, 236);
 }
